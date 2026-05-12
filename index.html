@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game Tracker System</title>
+    <script src="https://cj3.leaningtech.com/3.0/cj3loader.js"></script>
+    <style>
+      body { margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #2b2b2b; }
+    </style>
+  </head>
+  <body>
+    <script>
+      async function runJava() {
+        await cheerpjInit();
+        cheerpjRunMain("Main", "/app/GTS.jar");
+      }
+      runJava();
+    </script>
+  </body>
+</html>
